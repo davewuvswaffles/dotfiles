@@ -9,5 +9,7 @@ mkfifo "$PANEL_FIFO"
 
 urxvtd -q -o -f
 
+#panel 
+
 sxhkd &
 exec bspwm
