@@ -17,5 +17,7 @@ unsetopt beep
 autoload -U colors
 colors
 
-PROMPT=" %{$fg_bold[yellow]%} ——————————  "
-RPROMPT="%{$fg_no_bold[white]%}%M:%{$fg_bold[yellow]%} %~%{$reset_color%} "
+PROMPT=" %{$fg_bold[yellow]%}——————  "
+RPROMPT="%{$fg_no_bold[white]%}%M:%{$fg_bold[yellow]%} %~%{$reset_color%}"
+
+export PATH=$PATH:/home/dave/scripts
