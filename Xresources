@@ -1,0 +1,33 @@
+#include "/home/dave/.dotfiles/colors/z3bra"
+
+! #########################################
+URxvt.perl-ext-common:		default,matcher,tabbed 
+URxvt.url-Launcher:		    /usr/bin/dwb
+URxvt.matcher.button:       1
+
+
+urxvt*cursorUnderline:      0 
+urxvt*letterspace:          -5
+!urxvt*fading: 			    10
+!urxvt*fadeColor: 		    #000000	
+urxvt*cursorBlink:		    true
+urxvt*scrollBar:		    false
+urxvt*depth:			    32 
+urxvt*internalBorder: 		10
+
+Xft.dpi:	                96
+Xft.rgba:	                rgb
+Xft.antialias: 	            1
+Xft.hinting: 	            1
+Xft.autohint: 	            0
+Xft.hintstyle: 	            hintslight
+Xft.lcdfilter: 	            lcddefault
+
+urxvt*font:	        	    xft:Termsyn:pixelsize=14:style=Normal
+urxvt*boldFont:		        xft:Termsyn:pixelzize=14:style=Bold
+
+! Man page colors
+urxvt*colorIT: 		        #cacaca
+urxvt*colorBD:		        #eee685
+urxvt*colorUL:		        #a28c64
+
