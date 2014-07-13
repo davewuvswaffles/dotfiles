@@ -1,0 +1,21 @@
+#! /bin/sh
+
+duration=3
+
+#Geometry
+barx="20"
+bary="20"
+barw="240"
+barh="40"
+
+#Colors
+#bar_bg='#ff333333'
+#bar_fg='#ffffffff'
+
+#Font
+
+
+
+baropt="-g ${barw}x${barh}+${barx}+${bary}"
+
+(echo " $@"; sleep ${duration}) | bar $baropt 

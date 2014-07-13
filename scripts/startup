@@ -1,0 +1,13 @@
+#! /bin/sh
+
+umount /boot
+
+#Dim screen
+echo "20" > /sys/class/backlight/acpi_video0/brightness
+
+powertop --auto-tune
+
+rm /home/dave/.serverauth*
+
+amixer set Master 64
+

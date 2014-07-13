@@ -1,0 +1,4 @@
+#!/bin/sh
+modprobe vboxdrv
+modprobe vboxnetadp
+modprobe vboxnetflt
