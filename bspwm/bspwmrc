@@ -8,7 +8,7 @@ bspc config window_gap              5
 bspc config split_ratio        		0.5
 bspc config borderless_monocle 		true
 bspc config gapless_monocle    		true
-bspc config focus_follows_pointer	false
+bspc config focus_follows_pointer	true
 
 bpsc config normal_border_color		"#49d4dd"
 #bspc config focused_border_color	"#6ac0fd"
@@ -16,4 +16,4 @@ bspc config normal_frame_opacity	0.0
 bspc config focused_frame_opacity	0.05
 
 bspc config -d III window_gap       5 
-bspc config -d III left_padding     1350
+bspc config -d III right_padding    600
