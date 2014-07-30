@@ -1,4 +1,4 @@
-#include "/home/dave/dotfiles/colors/z3bra"
+#include "/home/dave/git/dotfiles/colors/z3bra"
 
 ! #########################################
 URxvt.perl-ext-common:		default,matcher,tabbed 
